@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://medsonmoombe.github.io/movie-website/)
+[Live Demo Link](https://magical-rugelach-5decb5.netlify.app/)
 
 ## Live presentation of the project
 [Live presentation](https://drive.google.com/file/d/1Wzhbcowhe_mbe0swPFA95Y-UgZRGbJsT/view?usp=sharing)
