@@ -93,17 +93,7 @@ npx eslint .
 - Twitter: [@emmanue78388405](https://twitter.com/@emmanue78388405)
 - LinkedIn: [Emmanuel moombe](https://www.linkedin.com/in/emmanuel-moombe-821918230/)
 
-👤 **Author2**
 
-- GitHub: [@yayner2002](https://github.com/yayner2002)
-- Twitter: [@wediagazian](https://twitter.com/wediagazian) 
-- LinkedIn: [LinkedIn](https://linkedin.com/in/yaynshet-medhin) 
-
-👤 **Author3**
-
-- GitHub:[Emmanuel Paul](https://github.com/Epaltechs) 
-- Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
-- LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/)
 
 ## 🤝 Contributing
 
