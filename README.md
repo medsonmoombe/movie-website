@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://yayner2002.github.io/js-group-project)
+[Live Demo Link](https://magical-rugelach-5decb5.netlify.app/)
 
 ## Live presentation of the project
 [Live presentation](https://drive.google.com/file/d/1Wzhbcowhe_mbe0swPFA95Y-UgZRGbJsT/view?usp=sharing)
@@ -93,17 +93,7 @@ npx eslint .
 - Twitter: [@emmanue78388405](https://twitter.com/@emmanue78388405)
 - LinkedIn: [Emmanuel moombe](https://www.linkedin.com/in/emmanuel-moombe-821918230/)
 
-👤 **Author2**
 
-- GitHub: [@yayner2002](https://github.com/yayner2002)
-- Twitter: [@wediagazian](https://twitter.com/wediagazian) 
-- LinkedIn: [LinkedIn](https://linkedin.com/in/yaynshet-medhin) 
-
-👤 **Author3**
-
-- GitHub:[Emmanuel Paul](https://github.com/Epaltechs) 
-- Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
-- LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/)
 
 ## 🤝 Contributing
 
