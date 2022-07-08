@@ -230,11 +230,11 @@ footer {
   .nav-items {
     display: none;
     margin-top: 100px;
-}
+  }
 
-.nav-middle .nav-items li a {
-  margin-top: 30px !important;
-}
+  .nav-middle .nav-items li a {
+    margin-top: 30px !important;
+  }
 
   .movies-display {
     gap: 20px;
@@ -273,11 +273,6 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-  }
-
-  .nav-item a {
-    color: #fff !important;
-    margin-top: 30px !important; 
   }
 }
 
@@ -323,18 +318,13 @@ footer {
     height: 339px;
   }
 
-
   .nav-items {
     display: none;
     margin-top: 100px;
-}
+  }
 
-.nav-middle .nav-items li a {
-  margin-top: 30px !important;
-}
-
-  .movies-display {
-    gap: 20px;
+  .nav-middle .nav-items li a {
+    margin-top: 30px !important;
   }
 
   .humb {
@@ -371,10 +361,5 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-  }
-
-  .nav-item a {
-    color: #fff !important;
-    margin-top: 30px !important; 
   }
 }
