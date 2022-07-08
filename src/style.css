@@ -234,6 +234,9 @@ footer {
 
   .nav-middle .nav-items li a {
     margin-top: 30px !important;
+    color: #fff !important;
+    font-size: 19px;
+    font-weight: 600;;
   }
 
   .movies-display {
@@ -273,6 +276,16 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
+    /* left: 80px; */
+  }
+
+  .nav-item {
+    height: 62px;
+    padding-left: 28px;
+  }
+
+  .nav-item a {
+    color: #fff;
   }
 }
 
@@ -325,6 +338,9 @@ footer {
 
   .nav-middle .nav-items li a {
     margin-top: 30px !important;
+    color: #fff !important;
+    font-size: 19px;
+    font-weight: 600;
   }
 
   .humb {
@@ -361,5 +377,11 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
+    /* left: 80px; */
+  }
+
+  .nav-item {
+    height: 62px;
+    padding-left: 28px;
   }
 }

@@ -19,12 +19,13 @@ const displayItem = async () => {
 displayItem();
 
 const menuItems = document.querySelector('.nav-items');
-// const liItem = document.querySelector('.nav-item');
+const middleNav = document.querySelector('.nav-middle');
 const humb = document.querySelector('.humb');
 const close = document.querySelector('.close');
 
 humb.addEventListener('click', () => {
   menuItems.style.display ="block";
+  middleNav.style.width ="40%";
   humb.style.display ="none";
   close.style.display ="block";
   document.body.style.overflowY ="hidden";
@@ -32,6 +33,7 @@ humb.addEventListener('click', () => {
 
 close.addEventListener('click', () => {
   menuItems.style.display ="none";
+  middleNav.style.width ="0";
   humb.style.display ="flex";
   close.style.display ="none";
   document.body.style.overflowY ="visible";
