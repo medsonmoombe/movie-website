@@ -17,3 +17,23 @@ const displayItem = async () => {
   commentsListner();
 };
 displayItem();
+
+const menuItems = document.querySelector('.nav-items');
+// const liItem = document.querySelector('.nav-item');
+const humb = document.querySelector('.humb');
+const close = document.querySelector('.close');
+
+humb.addEventListener('click', () => {
+  menuItems.style.display ="block";
+  humb.style.display ="none";
+  close.style.display ="block";
+  document.body.style.overflowY ="hidden";
+})
+
+close.addEventListener('click', () => {
+  menuItems.style.display ="none";
+  humb.style.display ="flex";
+  close.style.display ="none";
+  document.body.style.overflowY ="visible";
+})
+
