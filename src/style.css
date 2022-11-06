@@ -318,6 +318,10 @@ footer {
     background-position: center;
   }
 
+  .movie-descrp {
+    margin-top: 63%;
+  }
+
   .high-rated {
     color: darkcyan;
     padding-left: 44px;
