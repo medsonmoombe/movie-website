@@ -5,10 +5,12 @@ import reservationListener from './modules/createPopup.js';
 import showMovies from './modules/showMovies.js';
 import getData from './modules/getdata.js';
 import commentsListner from './modules/commentsPopUp.js';
+import navOperations from './modules/navFunction';
 import './modules/moviesCount.js';
 // import listenHeartClicks from './modules/Involvement.js';
 
 document.addEventListener('DOMContentLoaded', showMovies);
+navOperations();
 
 const displayItem = async () => {
   const movies = await getData();

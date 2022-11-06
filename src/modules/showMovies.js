@@ -6,12 +6,15 @@ const showMovies = async (data) => {
   for (let i = 0; i < data.length; i += 1) {
     const movieDisplay = document.createElement('div');
     movieDisplay.classList.add('movie-content');
-    const movieCard = document.createElement('div');
-    movieCard.classList.add('card-image');
+    const imageCard = document.createElement('div');
+    imageCard.classList.add('card-image');
+    const overlay = document.createElement('div');
+    overlay.classList.add('overlay-img');
     const Img = document.createElement('img');
     Img.setAttribute('src', `${data[i].image.medium}`);
     Img.setAttribute('alt', `affiche of ${data[i].name}`);
     Img.setAttribute('class', 'movie-img');
+    imageCard.append(overlay, Img);
     const movieDescript = document.createElement('div');
     movieDescript.classList.add('movie-descrp');
     const movieRating = document.createElement('div');
@@ -36,18 +39,18 @@ const showMovies = async (data) => {
     commentBtn.classList.add('movie-comment');
     commentBtn.setAttribute('movie-Id', `${data[i].id}`);
     commentBtn.id = `${data[i].id}`;
-    commentBtn.textContent = 'Comments';
+    commentBtn.textContent = 'Comment';
     const line = document.createElement('br');
     const Reservationbtn = document.createElement('button');
     Reservationbtn.setAttribute('movie-Id', `${data[i].id}`);
     Reservationbtn.classList.add('movie-reservation');
     Reservationbtn.id = `${data[i].id}`;
-    Reservationbtn.textContent = 'Reservation';
+    Reservationbtn.textContent = 'Reserve';
     const buttonCard = document.createElement('div');
     buttonCard.setAttribute('class', 'btnDiv');
     buttonCard.append(commentBtn, line, Reservationbtn);
     movieDescript.append(buttonCard);
-    movieDisplay.append(Img, movieDescript);
+    movieDisplay.append(imageCard, movieDescript);
     main.appendChild(movieDisplay);
 
     const updateLikes = async () => {
