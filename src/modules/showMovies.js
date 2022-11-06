@@ -43,7 +43,10 @@ const showMovies = async (data) => {
     Reservationbtn.classList.add('movie-reservation');
     Reservationbtn.id = `${data[i].id}`;
     Reservationbtn.textContent = 'Reservation';
-    movieDescript.append(commentBtn, line, Reservationbtn);
+    const buttonCard = document.createElement('div');
+    buttonCard.setAttribute('class', 'btnDiv');
+    buttonCard.append(commentBtn, line, Reservationbtn);
+    movieDescript.append(buttonCard);
     movieDisplay.append(Img, movieDescript);
     main.appendChild(movieDisplay);
 
