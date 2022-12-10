@@ -330,6 +330,11 @@ footer {
     padding-top: 103px;
   }
 
+  .stats {
+    margin-bottom: 10px;
+  }
+
+
   .movie-img {
     height: 339px;
   }
@@ -407,6 +412,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 30px;
+  }
+
+  .stats {
+    margin-bottom: 4px;
   }
 
   .movies-display {
