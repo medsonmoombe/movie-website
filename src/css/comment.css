@@ -20,7 +20,8 @@
   width: fit-content;
   flex-direction: column;
   border-radius: 0.7rem;
-  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url('/images/banner.jpg');
+  background: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)),
+    url("/images/banner.jpg");
   background-size: cover;
 
   /* width: 100%; */
@@ -132,4 +133,25 @@
 
 .fa-solid {
   color: #ec5242;
+}
+
+@media (max-width: 768px) {
+  .movie-popup {
+    width: 80%;
+    height: auto;
+  }
+
+  .popup-img {
+    width: 140px;
+    height: 200px;
+  }
+
+  .comments-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .commment-div {
+    width: 80%;
+  }
 }

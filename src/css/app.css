@@ -135,3 +135,16 @@
 .fa-solid {
   color: #ec5242;
 }
+
+@media (max-width: 768px) {
+  .reservations-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .reservation-div {
+    width: 80% !important;
+  }
+  .reservation-date-username {
+    font-size: 13px;
+  }
+}
